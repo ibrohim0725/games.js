@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    max-width: 800px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+body {
+    padding: 20px;
+}
+
+.accordion {
+    border-bottom: 5px solid black;
+    padding: 20px;
+    background-color: #B9FF66;
+    border-radius: 20px;
+    transition: all 1s;
+}
+
+.card-title {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.desc {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    border-top: 1px solid black;
+    transition: max-height 1s ease, opacity 1s ease;
+}
+
+.card-desc-active {
+    max-height: 500px;
+    opacity: 1;
+}
+
+#description {
+    margin-top: 20px;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    margin-top: 10px;
+    display: block;
+   font-size: 30px;
+    color: black;
+}

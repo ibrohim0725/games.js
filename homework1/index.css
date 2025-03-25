@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FDDB29;
+    text-align: center;
+}
+
+.card{
+    margin: 100px auto;
+    width: 400px;
+}
+#img1{
+    opacity: 0;
+    pointer-events: none;
+    width: 500px;
+    height: 500px;
+    box-shadow: 0 0 0 9999px #000;
+    position: absolute;
+    transition: opacity 0.5s ease;
+}
+
+
+body.dark > #img1{
+    opacity: 1;
+}
+#toggle{
+    right: 100px;
+    top: 50px;
+    padding: 10px;
+    border-radius: 50%;
+    border: none;
+    position: absolute;
+}
+a{
+    text-decoration: none;
+    margin-top: 10px;
+    display: block;
+   font-size: 30px;
+    color: black;
+}

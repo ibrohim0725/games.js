@@ -1,0 +1,21 @@
+body{
+       background-color:rgb(59, 92, 10) ;
+}
+.container{
+    margin: 50px auto;
+    max-width: 1000px;
+}
+.soccer{
+    margin: 50 px auto;
+    height: 600px;
+    align-items: center;
+    background-position: center;
+    background-image:url(./soccer.jpg);
+    background-repeat: no-repeat;
+}
+.ball{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    transition: all 1s;
+}
